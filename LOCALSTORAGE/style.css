@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    border: 1px solid black;
+    background: lightblue;
+    justify-content: center;
+    height: 500px;
+    padding: 10px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    padding: 5px;
+}
+
+label {
+    text-align: center;
+    color: black;
+    display: block;
+}
+
+input {
+    display: block;
+    border: 1px solid black;
+}
+
+input[type="submit"],
+input[type="button"],
+button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 9px;
+    background-color: rgb(115, 161, 239);
+}
+
+.content {
+    display: none;
+    width: 100%;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.btn-new {
+    display: none;
+}
